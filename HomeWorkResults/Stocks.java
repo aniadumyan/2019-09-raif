@@ -1,6 +1,7 @@
 package ru.raif.homework;
 
-public interface Stocks {
+public class Stocks {
 
-    String typesOfAction = new String[];
+    private Issuer[] issuers;
+    String[] typesOfStocks = new String[300];
 }

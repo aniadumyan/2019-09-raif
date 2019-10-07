@@ -1,6 +1,7 @@
 package ru.raif.homework;
 
-public interface OperationsDirectory {
+public class OperationsDirectory {
 
-    String operations = new String [];
+    private OperationLog[] operationLogs;
+    String[] operations = new String[100];
 }

@@ -1,6 +1,7 @@
 package ru.raif.homework;
 
-public interface Dollar extends  Market{
+public class Dollar {
 
+    private Market[] markets;
     char[] currency = new char [200];
 }

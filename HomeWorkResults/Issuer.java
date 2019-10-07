@@ -1,6 +1,8 @@
 package ru.raif.homework;
 
- public interface Issuer extends Stocks {
+ public class Issuer {
 
+  private Market[] markets;
+  private OperationLog[] operationLogs;
 
-}
+ }
